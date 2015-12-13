@@ -5,7 +5,7 @@ version 0.11.1.
 
 ### Download ora-test
 
-You can download the ora-test repository using [git][https://github.com/iuiTasks/ora-test.git]:
+You can download the ora-test repository using [https://github.com/iuiTasks/ora-test.git](https://github.com/iuiTasks/ora-test.git):
 
 ```
 OR
