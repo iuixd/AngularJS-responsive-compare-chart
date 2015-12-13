@@ -27,8 +27,8 @@ Running `grunt test` will run the project.
 
 ## Contact
 
-Srikumar K
-mobile/whatsapp: +65-94223024
+Srikumar K, 
+mobile/whatsapp: +65-94223024, 
 email: text2sri@gmail.com
 
 
