@@ -1,12 +1,34 @@
-# ora-test
+# Srikumar's test project
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+This test project is an application developed using [AngularJS](http://angularjs.org/) with [Bootstrap](http://http://getbootstrap.com/), generated with [Yeoman](http://yeoman.io/)
 version 0.11.1.
+
+### Download ora-test
+
+You can download the ora-test repository using [git][https://github.com/iuiTasks/ora-test.git]:
+
+```
+OR
+
+git clone https://github.com/iuiTasks/ora-test.git
+
+cd ora-test
+```
+
+### Install Dependencies
+
+Install dependencies
 
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
+Running `grunt test` will run the project.
 
-Running `grunt test` will run the unit tests with karma.
+## Contact
+
+Srikumar K
+mobile/whatsapp: +65-94223024
+email: text2sri@gmail.com
+
+
