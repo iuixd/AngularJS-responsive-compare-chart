@@ -1,0 +1,36 @@
+<div class="row">
+    <h1>Competitor Comparison</h1>
+    
+   <section id="mobile-table" ng-controller="MainCtrl">
+    <table class="table-bordered table-striped table-condensed">
+        <thead>
+            <tr>
+                <th></th>
+                <th ng-repeat="competitor in competitorReport" class="competitor-column" ng-class="{customer: competitor.name === 'The Customer'}">{{ competitor.name }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><span class="badge">Shop Fronts</span></th>
+                <td ng-repeat="competitor in competitorReport" data-title="{{ competitor.name }}" ng-class="{customer: competitor.name === 'The Customer'}"><span class="badge rank{{ competitor['shopfronts'] }}">{{ competitor['shopfronts'] }}</span></td>
+            </tr>
+            <tr>
+                <th><span class="badge">Website Speed</span></th>
+                <td ng-repeat="competitor in competitorReport" data-title="{{ competitor.name }}" ng-class="{customer: competitor.name === 'The Customer'}"><span class="badge rank{{ competitor['website speed'] }}">{{ competitor['website speed'] }}</span></td>
+            </tr>
+            <tr>
+                <th><span class="badge">Mobile Friendly</span></th>
+                <td ng-repeat="competitor in competitorReport" data-title="{{ competitor.name }}" ng-class="{customer: competitor.name === 'The Customer'}"><span class="badge rank{{ competitor['mobile friendly'] }}">{{ competitor['mobile friendly'] }}</span></td>
+            </tr>
+            <tr>
+                <th><span class="badge">Findability</span></th>
+                <td ng-repeat="competitor in competitorReport" data-title="{{ competitor.name }}" ng-class="{customer: competitor.name === 'The Customer'}"><span class="badge rank{{ competitor['findability'] }}">{{ competitor['findability'] }}</span></td>
+            </tr>
+            <tr>
+                <th><span class="badge">Social Engagement</span></th>
+                <td ng-repeat="competitor in competitorReport" data-title="{{ competitor.name }}" ng-class="{customer: competitor.name === 'The Customer'}"><span class="badge rank{{ competitor['social engagement'] }}">{{ competitor['social engagement'] }}</span></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</div>

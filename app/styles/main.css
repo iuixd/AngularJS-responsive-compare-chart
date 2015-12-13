@@ -1,0 +1,152 @@
+body {
+    padding-top: 70px !important;
+    color: #606060;
+}
+h1 {
+    padding: 0 0 1rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background: #606060;
+}
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+    color: #606060;
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: bold;
+}
+.table-bordered {
+    max-width: 75%;
+    width: 100%;
+    margin: 0 auto;
+    background: #FFF;
+    margin-bottom: 4rem;
+    border-collapse: separate;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 8px;
+}
+.table-bordered thead {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+.table-bordered>thead>tr>th.competitor-column {
+    width: 13%;
+    font-size: 1.2rem;
+}
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th {
+    padding: 2rem;
+    border: none;
+}
+.table-bordered>tbody>tr>td {
+    text-align: center;
+    border: none;
+}
+.table-bordered>tbody>tr>th {
+    padding-left: 2rem;
+}
+.table-bordered>thead>tr>th.competitor-column {
+    text-align: center;
+}
+.table-bordered>thead>tr>th.customer,
+.table-bordered>tbody>tr>td.customer {
+    background: rgba(183,209,0,0.1);
+    border: 1px solid  rgba(137,209,0,0.3);
+    border-width: 0 1px;
+}
+.table-bordered>tbody>tr>td .badge {
+    font-size: 14px;
+}
+.table-bordered>tbody>tr>th .badge {
+    font-size: 14px;
+    background: none;
+    color: #606060;
+}
+td .badge.rank1 {
+    background: #B7D100;
+}
+td .badge.rank2 {
+    background: #34BBDB;
+}
+td .badge.rank3 {
+    background: #ED4D98;
+}
+td .badge.rank4 {
+    background: rgba(0,0,0,0.8);
+}
+td .badge.rank5 {
+    background: rgba(0,0,0,0.4);
+}
+td .badge.rank6 {
+    background: rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background: #F8F8F8;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #mobile-table table, 
+	#mobile-table thead, 
+	#mobile-table tbody, 
+	#mobile-table th, 
+	#mobile-table td, 
+	#mobile-table tr { 
+		display: block; 
+	}
+	#mobile-table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+    .table-bordered>thead>tr>th,
+    .table-bordered>tbody>tr>td,
+    .table-bordered>tbody>tr>th {
+        padding: 0;
+    }
+    .table-bordered>tbody>tr>th {
+        margin-top: 2rem;
+        padding: 0.5rem 6px;
+    }
+	#mobile-table td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding: 0; 
+		white-space: normal;
+		text-align:left;
+	}
+
+	#mobile-table td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+	#mobile-table td:before {
+        content: attr(data-title);
+        font-weight: normal;
+    }
+    #mobile-table td .badge {
+        margin: 6px 0 6px 85%;
+        padding: 0.2rem 0;
+        width: 30px;
+    }
+    #mobile-table th .badge {
+        background: #CCC;
+        color: #000;
+    }
+}

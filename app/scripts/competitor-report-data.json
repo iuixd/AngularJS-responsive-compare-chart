@@ -1,0 +1,58 @@
+{
+   "reportdata":{
+      "competitor1":{
+         "shopfronts":3,
+         "website speed":1,
+         "name":"Competitor X",
+         "mobile friendly":1,
+         "findability":5,
+         "social engagement":4
+      },
+      "customer":{
+         "shopfronts":1,
+         "website speed":1,
+         "name":"The Customer",
+         "mobile friendly":2,
+         "findability":2,
+         "social engagement":1
+      },
+      "competitor5":{
+         "shopfronts":6,
+         "website speed":3,
+         "name":"Random Business LTD",
+         "mobile friendly":5,
+         "findability":4,
+         "social engagement":5
+      },
+      "competitor3":{
+         "shopfronts":4,
+         "website speed":2,
+         "name":"Industry Etc",
+         "mobile friendly":3,
+         "findability":1,
+         "social engagement":6
+      },
+      "competitor4":{
+         "shopfronts":2,
+         "website speed":4,
+         "name":"Another Competitor",
+         "mobile friendly":4,
+         "findability":3,
+         "social engagement":3
+      },
+      "competitor2":{
+         "shopfronts":5,
+         "website speed":1,
+         "name":"The Business Co.",
+         "mobile friendly":6,
+         "findability":6,
+         "social engagement":2
+      }
+   },
+   "customerdetails":{
+      "phone":"12 456 7899",
+      "tag":"A small amount of interesting information about the customer",
+      "name":"The Customer",
+      "adress":"12, The Road, City"
+   }
+}
