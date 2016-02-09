@@ -5,14 +5,14 @@ version 0.11.1.
 
 ### Download Responsive-Compare-Chart
 
-You can download the Responsive-Compare-Chart repository using [git][https://github.com/iuiTasks/responsive-compare-chart.git]:
+You can download the Responsive-Compare-Chart repository using [https://github.com/iuiTasks/Responsive-Compare-Chart.git](https://github.com/iuiTasks/Responsive-Compare-Chart.git):
 
 ```
 OR
 
-git clone https://github.com/iuiTasks/responsive-compare-chart.git
+git clone https://github.com/iuiTasks/Responsive-Compare-Chart.git
 
-cd responsive-compare-chart
+cd Responsive-Compare-Chart
 ```
 
 ### Install Dependencies
@@ -27,8 +27,6 @@ Running `grunt test` will run the project.
 
 ## Contact
 
-Srikumar K
-mobile/whatsapp: +65-94223024
+Srikumar K, 
+mobile/whatsapp: +65-94223024, 
 email: text2sri@gmail.com
-
-
