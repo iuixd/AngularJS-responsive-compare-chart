@@ -1,18 +1,18 @@
-# Srikumar's test project
+# Srikumar's responsive-compare-chart project
 
 This test project is an application developed using [AngularJS](http://angularjs.org/) with [Bootstrap](http://http://getbootstrap.com/), generated with [Yeoman](http://yeoman.io/)
 version 0.11.1.
 
-### Download ora-test
+### Download responsive-compare-chart
 
-You can download the ora-test repository using [git][https://github.com/iuiTasks/ora-test.git]:
+You can download the responsive-compare-chart repository using [git][https://github.com/iuiTasks/responsive-compare-chart.git]:
 
 ```
 OR
 
-git clone https://github.com/iuiTasks/ora-test.git
+git clone https://github.com/iuiTasks/responsive-compare-chart.git
 
-cd ora-test
+cd responsive-compare-chart
 ```
 
 ### Install Dependencies
