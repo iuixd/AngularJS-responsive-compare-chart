@@ -17,9 +17,11 @@ cd Responsive-Compare-Chart
 
 ### Install Dependencies
 
-Install dependencies
+Run `npm update` for updating dependencies
 
-## Build & development
+Run `bower install` for updating bower dependencies
+
+## Build Preview & Test
 
 Run `grunt` for building and `grunt serve` for preview.
 
