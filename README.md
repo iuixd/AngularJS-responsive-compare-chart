@@ -1,11 +1,11 @@
-# Srikumar's responsive-compare-chart project
+# Responsive-Compare-Chart project
 
 This test project is an application developed using [AngularJS](http://angularjs.org/) with [Bootstrap](http://http://getbootstrap.com/), generated with [Yeoman](http://yeoman.io/)
 version 0.11.1.
 
-### Download responsive-compare-chart
+### Download Responsive-Compare-Chart
 
-You can download the responsive-compare-chart repository using [git][https://github.com/iuiTasks/responsive-compare-chart.git]:
+You can download the Responsive-Compare-Chart repository using [git][https://github.com/iuiTasks/responsive-compare-chart.git]:
 
 ```
 OR
