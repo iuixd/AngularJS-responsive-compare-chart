@@ -30,5 +30,5 @@ Running `grunt test` will run the project.
 ## Contact
 
 Srikumar K, 
-mobile/whatsapp: +65-94223024, 
+mobile/whatsapp: +91-9880031872, 
 email: text2sri@gmail.com
